@@ -12,8 +12,6 @@ Documentation is available at [xxx/docs](https://xxx/docs/).
 
 You can use [GitHub pages](https://guides.github.com/features/pages/) to create your documentation.
 
-See an example here : https://github.com/ThalesGroup/ThalesGroup.github.io
-
 **Please also add the documentation URL into the About section (Website field)**
 
 ## Contributing
