@@ -1,0 +1,14 @@
+NO PC
+validation before training, val_train_seen , action_steps: 4.90, steps: 4.90, lengths: 9.68, nav_error: 5.17, oracle_er
+ror: 3.19, sr: 53.63, oracle_sr: 62.62, spl: 50.67, nDTW: 64.79, SDTW: 48.38, CLS: 63.69, val_seen , action_steps: 4.93
+, steps: 4.93, lengths: 10.12, nav_error: 5.55, oracle_error: 3.45, sr: 50.83, oracle_sr: 60.14, spl: 48.45, nDTW: 63.9
+5, SDTW: 45.66, CLS: 63.47, val_unseen , action_steps: 4.81, steps: 4.81, lengths: 9.35, nav_error: 6.01, oracle_error:
+ 3.70, sr: 47.72, oracle_sr: 56.83, spl: 44.97, nDTW: 60.03, SDTW: 42.73, CLS: 59.94
+
+PC with ((path_states[b, :t] == 2).any().item() or (confidence_scores[b, t:] < 0.5).any())
+validation before training, val_unseen , action_steps: 5.40, steps: 6.20, lengths: 12.50, nav_error: 7.04, oracle_error:
+ 4.03, sr: 39.25, oracle_sr: 49.77, spl: 35.71, nDTW: 50.74, SDTW: 34.05, CLS: 52.33
+
+PC with path_states[b, :t] == 2).any().item()
+validation before training, val_unseen , action_steps: 5.40, steps: 6.20, lengths: 12.50, nav_error: 7.04, oracle_e
+rror: 4.03, sr: 39.25, oracle_sr: 49.77, spl: 35.71, nDTW: 50.74, SDTW: 34.05, CLS: 52.33

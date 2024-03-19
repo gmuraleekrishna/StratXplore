@@ -1,0 +1,19 @@
+/home/krishna/Projects/VLN-BEVBert/visualise_dir/geckodriver: error: unexpected argument '--webdriver-port' found
+
+/home/krishna/Projects/VLN-BEVBert/visualise_dir/geckodriver: error: unexpected argument '--webdriver-port' found
+
+/home/krishna/Projects/VLN-BEVBert/visualise_dir/geckodriver: error: unexpected argument '--webdriver-port' found
+
+1710140047577	geckodriver	INFO	Listening on 127.0.0.1:48271
+1710140047594	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXAh1Xk"
+Error: no DISPLAY environment variable specified
+1710140130479	geckodriver	INFO	Listening on 127.0.0.1:51651
+1710140130495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelmQW44"
+Error: no DISPLAY environment variable specified
+1710140205267	geckodriver	INFO	Listening on 127.0.0.1:35391
+1710140205274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3YyHl5"
+Error: no DISPLAY environment variable specified
+1710140272985	geckodriver	INFO	Listening on 127.0.0.1:32857
+1710140307305	geckodriver	INFO	Listening on 127.0.0.1:43561
+1710140308319	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJgpE96"
+Error: no DISPLAY environment variable specified
