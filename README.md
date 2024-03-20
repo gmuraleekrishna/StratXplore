@@ -1,9 +1,9 @@
 # StratXplore-VLN
-We introduce a memory-based and mistake-aware path planning strategy for VLN agents, called *StratXplore* (Strategic 
-Exploration), 
+We introduce a memory-based and mistake-aware path planning strategy for VLN agents, called *StratXplore* (Strategic
+Exploration),
 that presents global and local action planning to select optimal frontier for path correction.
-## Get started
 
+![StratXplore](assets/method.png)
 
 ## TODOs
 
@@ -21,8 +21,8 @@ that presents global and local action planning to select optimal frontier for pa
    ```bash
    conda env create -f environment.yaml
    ```
-2. Install the latest version of [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator), 
-including the Matterport3D RGBD datasets (for step 6).
+2. Install the latest version of [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator),
+   including the Matterport3D RGBD datasets (for step 6).
 3. Download the Matterport3D scene meshes. `download_mp.py` must be obtained from the Matterport3D [project webpage]
    (https://niessner.github.io/Matterport/). `download_mp.py` is also used for downloading RGBD datasets in step 2.
 
@@ -42,17 +42,17 @@ including the Matterport3D RGBD datasets (for step 6).
    python precompute_features/grid_sem.py
    ```
 5. Download preprocessed instruction datasets and trained weights [[link]](https://drive.google.
-com/file/d/1jYg_dMlCDZoOtrkmmq40k-_-m6xerdUI/view?usp=sharing). The directory structure has been organized.
+   com/file/d/1jYg_dMlCDZoOtrkmmq40k-_-m6xerdUI/view?usp=sharing). The directory structure has been organized.
 
 ## Running
 
-   Pre-training. Download precomputed image features [[link]](https://drive.google.com/file/d/1S8jD1Mln0mbTsB5I_i2jdQ8xBbnw-Dyr/view?usp=sharing) into folder `img_features`.
+Pre-training. Download precomputed image features [[link]](https://drive.google.com/file/d/1S8jD1Mln0mbTsB5I_i2jdQ8xBbnw-Dyr/view?usp=sharing) into folder `img_features`.
 
    ```
    CUDA_VISIBLE_DEVICES=0 bash scripts/pt_r2r.bash 2333  # R2R
    ```
 
-   Fine-tuning and Testing, the trained weights can be found in step 7.
+Fine-tuning and Testing, the trained weights can be found in step 7.
 
    ```
    CUDA_VISIBLE_DEVICES=0 bash scripts/ft_r2r.bash 2333  # R2R
